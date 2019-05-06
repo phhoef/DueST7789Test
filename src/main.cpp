@@ -35,6 +35,7 @@ void setup()
     tft.fillScreen(ILI9341_WHITE);
     tft.fillRect(10, 10, 100, 100, ILI9341_RED);
     tft.fillRect(10, 110, 100, 100, ILI9341_YELLOW);
+    tft.fillScreen(ILI9341_WHITE);
     Serial.println("Drawing rect finished");
     // tft.fillScreen(ST77XX_WHITE);
     // tft.drawRect(10, 10, 100, 100, ST77XX_RED);
